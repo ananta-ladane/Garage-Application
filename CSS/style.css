@@ -1,0 +1,1786 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .main-nav {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('https://autalogic-react.themepresss.com/static/media/2.f2433721.jpg');
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+   
+} */
+
+.nav {
+    background-color: rgb(5, 65, 113);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.main1-nav {
+    text-align: center;
+    margin: 5px auto;
+
+}
+
+.sub1-nav {
+    padding-top: 5px;
+}
+
+.sub1-nav p {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.sub1-nav a {
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 4px 7px;
+    background-color: rgb(116, 121, 121);
+}
+
+.main2-nav {
+    background-color: rgb(5, 65, 113);
+    width: 100%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    position: sticky;
+
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.unorder2 {
+    list-style: none;
+}
+
+.unorder2 a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: grey;
+}
+
+.tgl {
+    background-color: orangered;
+    border: none;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.tgl i {
+    color: white;
+    font-size: 25px;
+
+}
+
+.item1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('https://autalogic-react.themepresss.com/static/media/2.f2433721.jpg');
+    /* width: 100%; */
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0;
+
+}
+
+.item2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('https://autalogic-react.themepresss.com/static/media/3.57514f14.jpg');
+    /* width: 100%; */
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('https://autalogic-react.themepresss.com/static/media/1.56fd274d.jpg');
+    /* width: 100%; */
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.best {
+    margin-top: 0%;
+    line-height: 2.5;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 40%;
+}
+
+.qua {
+    line-height: 2;
+}
+
+.more {
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.more:hover {
+    background-color: transparent;
+    border: 1px solid orangered;
+}
+
+.sect2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* .sub1-sect2 {
+    margin: 0 auto;
+    width: 80%;
+} */
+
+.sub1-sect2 p:nth-child(1) {
+
+    margin-top: 40px;
+    color: orangered;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub1-sect2 p:nth-child(2) {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.sub1-sect2 p:nth-child(3) {
+    border-bottom: 4px solid orangered;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.sub1-sect2 p:nth-child(4) {
+    color: rgb(54, 52, 52);
+    font-size: 13px;
+    line-height: 2;
+    padding-top: 20px;
+
+}
+
+.more-ab {
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+
+.sub2-sect2 {
+    /* width: 80%; */
+    margin: 20px auto;
+    border: 1px solid rgb(246, 210, 196);
+    padding: 15px;
+}
+
+.sub2-sect2 .img {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('https://autalogic-react.themepresss.com/static/media/img-2.ae307b4e.png');
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.img a i {
+    color: rgb(179, 175, 175);
+    align-items: center;
+    font-size: 40px;
+}
+
+.di1-sect3 p:nth-child(1) {
+    color: orangered;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.di1-sect3 p:nth-child(2) {
+    color: rgb(31, 31, 31);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.di1-sect3 p:nth-child(3) {
+    color: orangered;
+    border-top: 3px solid orangered;
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+.sub1-sect3 {
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(217, 214, 214);
+    height: 200px;
+    padding-top: 20px;
+}
+
+.sub1-sect3 p:nth-child(1) {
+    font-size: 20px;
+    color: orangered;
+}
+
+.sub1-sect3 p:nth-child(2) {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.sub1-sect3 p:nth-child(3) {
+    color: rgb(128, 126, 126);
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sect4 {
+    background-image: linear-gradient(rgba(5, 65, 113, 0.5), rgba(5, 65, 113, 0.5)), url('https://autalogic-react.themepresss.com/static/media/1.a4a00ed1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.sub1-sect4 {
+    margin: 10px;
+    text-align: center;
+}
+
+.sub1-sect4 P:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.sub1-sect4 P:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+
+    margin: 0 auto;
+}
+
+.sub1-sect4 P:nth-child(3) {
+    border-bottom: 2px solid orangered;
+    width: 29%;
+    margin: 0 auto;
+}
+
+.sub1-sect4 P:nth-child(4) {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.sub2-sect4 {
+    margin: 10px;
+    text-align: center;
+}
+
+.sub2-sect4 P:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.sub2-sect4 P:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+
+    margin: 0 auto;
+}
+
+.sub2-sect4 P:nth-child(3) {
+    border-bottom: 2px solid orangered;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.sub2-sect4 P:nth-child(4) {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.sub3-sect4 {
+    margin: 10px;
+    text-align: center;
+}
+
+.sub3-sect4 P:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.sub3-sect4 P:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+    margin: 0 auto;
+}
+
+.sub3-sect4 P:nth-child(3) {
+    border-bottom: 2px solid orangered;
+    width: 39%;
+    margin: 0 auto;
+}
+
+.sub3-sect4 P:nth-child(4) {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.sub4-sect4 {
+    margin: 10px;
+    text-align: center;
+}
+
+.sub4-sect4 P:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.sub4-sect4 P:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+
+    margin: 0 auto;
+}
+
+.sub4-sect4 P:nth-child(3) {
+    border-bottom: 2px solid orangered;
+    width: 39%;
+    margin: 0 auto;
+}
+
+.sub4-sect4 P:nth-child(4) {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.img1 {
+    background-image: url("https://autalogic-react.themepresss.com/static/media/img-9.14cf8b17.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+.img2 {
+    background-image: url("https://autalogic-react.themepresss.com/static/media/img-8.37d2708b.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+.img3 {
+    background-image: url("https://autalogic-react.themepresss.com/static/media/img-7.902a285c.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+.img4 {
+    background-image: url("https://autalogic-react.themepresss.com/static/media/img-6.1316fe60.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+.img5 {
+    background-image: url("https://autalogic-react.themepresss.com/static/media/img-10.278bf620.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+.img6 {
+    background-image: url("https://autalogic-react.themepresss.com/static/media/img-5.8bb15f64.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+}
+
+.di1-sect5 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.di1-sect5 p:nth-child(1) {
+    color: orangered;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.di1-sect5 p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.di1-sect5 p:nth-child(3) {
+    width: 25%;
+    border-bottom: 3px solid orangered;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.car-parts {
+    background-image: url('https://autalogic-react.themepresss.com/static/media/img-5.8bb15f64.jpg');
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+.sub-car-parts {
+    background-color: rgba(5, 65, 113, 0.7);
+    width: 40%;
+
+}
+
+.sub-car-parts p:nth-child(1) {
+    color: orangered;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.sub-car-parts p:nth-child(2) {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.sub-car-parts p:nth-child(3) {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.sub1-sect5 {
+    border: 2px solid rgb(213, 210, 210);
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(189, 185, 185);
+    border-radius: 5px;
+
+}
+
+.sub1-sect5:hover {
+    background-color: orangered;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+.sub2-sect5 {
+    border: 2px solid rgb(213, 210, 210);
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(189, 185, 185);
+    border-radius: 5px;
+
+}
+
+.sub2-sect5:hover {
+    background-color: orangered;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.di1-sect6 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.di1-sect6 p:nth-child(1) {
+    color: orangered;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+.di1-sect6 p:nth-child(2) {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.di1-sect6 p:nth-child(3) {
+    border-bottom: 3px solid orangered;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sub1-sect6 {
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(204, 201, 201);
+}
+
+.sub1-sect6 img {
+    width: 100%;
+}
+
+.sect7 {
+    background-image: linear-gradient(rgba(5, 65, 113, 0.5), rgba(5, 65, 113, 0.5)), url('https://autalogic-react.themepresss.com/static/media/1.1583f94d.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+form {
+    width: 100%;
+}
+
+.input-txet {
+    width: 100%;
+    padding: 7px 10px;
+    text-transform: capitalize;
+    background-color: rgb(40 68 92 / 70%);
+    border: 1px solid rgb(193, 189, 189);
+    margin-bottom: 20px;
+    color: white;
+}
+
+.msg {
+    width: 100%;
+    padding: 7px 10px;
+    background-color: rgb(40 68 92 / 70%);
+    border: 1px solid rgb(193, 189, 189);
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.car-model {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.sect8 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.di1-sect8 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.di1-sect8 p:nth-child(1) {
+    color: orangered;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.di1-sect8 p:nth-child(2) {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.di1-sect8 p:nth-child(3) {
+    border-bottom: 3px solid orangered;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.di2-sect8 figure {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+
+}
+
+.di2-sect8 figure .fi-img {
+    width: 100%;
+}
+
+.sub-sect8 {
+    width: 80%;
+    padding: 0px;
+    border-top: 1px solid rgb(239, 234, 234);
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sub-sect8 img {
+
+    width: 25%;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+
+}
+
+.sub-sect8 p:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    color: gray;
+    font-size: 15px;
+}
+
+.sub-sect8 p:nth-child(2) span {
+    color: orangered;
+}
+
+.foo {
+    background-color: rgb(5, 65, 113);
+}
+
+.sub1-foo {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.sub1-foo img {
+    width: 80%;
+}
+
+.sub1-foo p {
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.sub1-foo a {
+    color: white;
+    margin: 2px;
+    background-color: rgba(80, 123, 161, 0.7);
+    padding: 5px 10px;
+    border-radius: 50%;
+
+}
+
+.sub2-foo {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sub2-foo .ph1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 3px;
+
+}
+
+.sub2-foo p:nth-child(3) {
+    border-top: 3px solid orangered;
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 0;
+
+}
+
+.sub2-di1 {
+    margin: 5px;
+}
+
+.sub2-di2 {
+    margin: 5px 2px 5px 15px;
+}
+
+.ph4 {
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.ph5 {
+    color: gray;
+    text-transform: capitalize;
+}
+
+.sub3-foo {
+    margin-top: 20px;
+
+}
+
+.sub3-foo p:nth-child(1) {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+
+}
+
+.sub3-foo p:nth-child(2) {
+    border-top: 3px solid orangered;
+    width: 23%;
+    margin-top: 0px;
+}
+
+.sub3-foo address {
+    color: rgb(142, 139, 139);
+    text-transform: capitalize;
+}
+
+.sub3-foo p:nth-child(4) {
+    color: rgb(142, 139, 139);
+    margin-bottom: 0;
+}
+
+.sub3-foo p:nth-child(4) a {
+    color: rgb(142, 139, 139);
+    text-decoration: none;
+
+}
+
+.sub3-foo p:nth-child(5) {
+    margin-top: 0;
+    color: rgb(142, 139, 139);
+
+}
+
+.sub3-foo p:nth-child(5) a {
+    color: rgb(142, 139, 139);
+    text-decoration: none;
+}
+
+.sub4-foo {
+    width: 100%;
+
+}
+
+.sub4-foo p:nth-child(1) {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.sub4-foo p:nth-child(2) {
+    border-top: 3px solid orangered;
+    border-radius: 20px;
+    width: 22%;
+    margin-top: 0;
+}
+
+.sub4-foo ul {
+    color: orangered;
+}
+
+.sub4-foo ul li span {
+    color: white;
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+.sub4-foo span:hover {
+    color: orangered;
+}
+
+.main2-foo {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: rgb(9, 55, 93);
+}
+
+.main2-foo p {
+    padding-top: 15px;
+    margin: 5px 30px;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width:576px) {
+
+    .main1-nav1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sect2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .sub1-sect2 {
+        text-align: justify;
+        /* width: 100%;
+        margin: 0 auto;
+        padding-left: 50px;
+    */
+    }
+
+    .sub2-sect2 {
+        height: 500px;
+    }
+
+    .sub2-sect2 .img {
+        height: 100%;
+        padding-top: 180px;
+    }
+
+    .sect5 .car-parts {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img1 {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img2 {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img3 {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img4 {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img5 {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .img6 {
+        height: 300px;
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sect7 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 1000px;
+    }
+
+    .sect8 {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .di1-sect8 {
+        padding-bottom: 20px;
+    }
+
+    .di2-sect8 figure {
+        margin-top: 50px;
+    }
+
+    .sub-sect8 .lily {
+        width: 60px;
+    }
+}
+
+@media (min-width:768px) {
+
+
+    .main1-nav1 {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 50%;
+        height: 40px;
+    }
+
+
+    .best {
+        padding-top: 15%;
+        font-size: 42px;
+    }
+
+    .qua {
+        font-size: 20px;
+    }
+
+
+    .sub1-sect2 p:nth-child(3) {
+        width: 10%;
+    }
+
+
+    /* .sub2-sect2 {
+        width: 50%;
+        height: 435px;
+        margin: 20px auto;
+
+    } */
+
+    .sub2-sect2 .img {
+        height: 400px;
+        padding-top: 180px;
+    }
+
+    .sect3 {
+        padding-top: 80px;
+    }
+
+    .di1-sect4 {
+        height: 250px;
+    }
+
+    .main1-sect5 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .car-parts {
+        height: 400px;
+        padding-top: 282px;
+
+    }
+
+    .img1 {
+        height: 400px;
+
+    }
+
+    .img2 {
+        height: 400px;
+    }
+
+    .img3 {
+        height: 400px;
+    }
+
+    .img4 {
+        height: 400px;
+    }
+
+    .img5 {
+        height: 400px;
+    }
+
+    .img6 {
+        height: 400px;
+    }
+
+    .sub-car-parts {
+        width: 30%;
+    }
+
+    .sub-car-parts p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    .sub1-sect5 {
+        padding: 40px 40px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+
+    }
+
+    .sub2-sect5 {
+
+        padding: 40px 40px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+
+    }
+
+
+
+    .di1-sect6 p:nth-child(2) {
+        font-size: 39px;
+    }
+
+    .di1-sect6 p:nth-child(3) {
+        width: 10%;
+        margin: 0 auto;
+    }
+
+    /* .sub1-sect6 {
+
+        width: 45%;
+        margin: 10px;
+    } */
+
+
+    .sect7 {
+
+        height: 1100px;
+    }
+
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .input-txet {
+        padding: 10px 10px;
+
+    }
+
+    .msg {
+        padding: 7px 10px;
+        padding-bottom: 90px;
+
+    }
+
+    .di1-sect8 p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .di1-sect8 p:nth-child(3) {
+        width: 10%;
+    }
+
+    .di2-sect8 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .di2-sect8 figure {
+        width: 47%;
+        margin: 20px 10px 10px 5px;
+    }
+
+
+    .sub1-foo {
+        width: 45%;
+    }
+
+    .sub2-foo {
+        margin-top: 40px;
+        width: 45%;
+    }
+
+    .sub2-foo .ph1 {
+        font-size: 25px;
+        margin-bottom: 3px;
+        font-weight: 800;
+
+    }
+
+    .sub2-foo p:nth-child(3) {
+        width: 20%;
+    }
+
+    .sub3-foo {
+        margin-top: 25px;
+        width: 45%;
+
+    }
+
+    .sub3-foo p:nth-child(1) {
+        font-size: 25px;
+        font-weight: 800;
+
+    }
+
+    .sub3-foo p:nth-child(2) {
+        border-top: 3px solid orangered;
+        width: 23%;
+        margin-top: 0px;
+    }
+
+    .sub3-foo address {
+        line-height: 2;
+    }
+
+    .sub4-foo {
+        width: 45%;
+        margin-top: 20px;
+
+    }
+
+    .sub4-foo p:nth-child(1) {
+        font-size: 25px;
+        font-weight: 800;
+
+    }
+
+    .main2-foo {
+        height: 110px;
+        margin-top: 20px;
+
+    }
+
+    .main2-foo p {
+        padding-top: 30px;
+        margin: 5px 30px;
+    }
+
+}
+
+
+@media (min-width:992px) {
+
+    .item1 {
+        height: 800px;
+    }
+
+    .item2 {
+        height: 800px;
+    }
+
+    .item3 {
+        height: 800px;
+    }
+
+    .main1-nav1 {
+        width: 100%;
+    }
+
+    .main1-nav {
+        margin: 10px auto;
+        width: 100%;
+        color: white;
+    }
+
+    .sub1-nav p {
+        font-size: 15px;
+    }
+
+    .main2-nav {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        width: 100%;
+    }
+
+
+    .logo img {
+        width: 50%;
+        height: 40px;
+    }
+
+    .un1 li {
+        list-style: none;
+        margin: 2px 10px 2px 10px;
+
+    }
+
+    .un1 li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: white;
+    }
+
+    .sub2-main {
+        margin-top: 70px;
+        width: 60%;
+        height: 550px;
+        padding: 30px;
+        background-color: rgb(5, 65, 113, 0.7);
+    }
+
+    .send {
+        background-color: orangered;
+        color: white;
+        text-transform: capitalize;
+        padding: 7px 10px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .sub2-main small {
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .sub2-main .input1 {
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 18px;
+        text-transform: capitalize;
+        background-color: transparent;
+        color: black;
+        border: 1px solid white;
+
+    }
+
+    .msg1 {
+        width: 100%;
+        padding: 7px 10px;
+        background-color: rgb(40 68 92 / 70%);
+        border: 1px solid rgb(193, 189, 189);
+        padding-bottom: 90px;
+        margin-bottom: 20px;
+    }
+
+
+    .di1-sect2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* .sub1-sect2 {
+        width: 45%;
+    } */
+
+    .sub1-sect2 p:nth-child(1) {
+        font-size: 17px;
+    }
+
+    .sub1-sect2 p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .sub1-sect2 p:nth-child(3) {
+        width: 10%;
+    }
+
+    .sub1-sect2 p:nth-child(4) {
+        font-size: 15px;
+
+    }
+
+    /* .sub2-sect2 {
+        /* width: 40%; */
+    /* height: 500px;
+        margin: 20px auto;
+        border: 1px solid rgb(246, 210, 196);
+        padding: 15px; */
+
+
+    .sub2-sect2 .img {
+        width: 100%;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding-top: 180px;
+    }
+
+    .img a i {
+        font-size: 50px;
+    }
+
+    .sect3 {
+        padding-top: 80px;
+    }
+
+    .di1-sect3 p:nth-child(1) {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .di1-sect3 p:nth-child(2) {
+        font-size: 35px;
+    }
+
+    .di1-sect3 p:nth-child(3) {
+        width: 10%;
+        margin: 0 auto;
+
+    }
+
+    .sub1-sect3 {
+        height: 220px;
+    }
+
+    .sub1-sect3 p:nth-child(1) {
+        font-size: 25px;
+    }
+
+
+    .di1-sect4 {
+        height: 250px;
+        width: 100%;
+    }
+
+    .main1-sect5{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .di1-sect5 {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .di1-sect5 p:nth-child(1) {
+        color: orangered;
+        text-transform: capitalize;
+        font-size: 19px;
+        font-weight: 600;
+
+    }
+
+    .di1-sect5 p:nth-child(2) {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+
+    }
+
+    .di1-sect5 p:nth-child(3) {
+        width: 10%;
+        border-bottom: 3px solid orangered;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .sect5 .car-parts{
+
+        width: 60%;
+        height: 400px;
+        padding-top: 282px;
+
+    }
+
+    .img1 {
+        height: 380px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .img2 {
+        height: 380px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .img3 {
+        height: 380px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .img4 {
+        height: 380px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .img5 {
+        height: 380px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .img6 {
+        height: 380px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .sub-car-parts {
+        width: 30%;
+    }
+
+    .sub1-sect5 {
+        padding: 40px 40px;
+        font-size: 30px;
+        margin-top: 10px;
+
+    }
+
+    .sub2-sect5 {
+        padding: 40px 40px;
+        font-size: 30px;
+    }
+
+    .di1-sect6 p:nth-child(1) {
+        font-size: 19px;
+    }
+
+    .di1-sect6 p:nth-child(2) {
+        font-size: 39px;
+    }
+
+    .di1-sect6 p:nth-child(3) {
+        width: 10%;
+    }
+
+    .di2-sect6 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* .sub1-sect6 {
+        width: 30%;
+        margin: 10px;
+    } */
+
+
+    .sect7 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .for {
+        width: 55%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .input-txet {
+        width: 45%;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+
+    .msg {
+        margin-top: 10px;
+        width: 94%;
+        padding-bottom: 90px;
+        margin-bottom: 20px;
+    }
+
+    .for1 {
+        width: 40%;
+        margin-top: 80px;
+    }
+
+    .car-model {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .di1-sect8 p:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    .di1-sect8 p:nth-child(2) {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .di1-sect8 p:nth-child(3) {
+        width: 10%;
+    }
+
+    .di2-sect8 {
+
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .di2-sect8 figure {
+        width: 31%;
+        margin: 20px 10px 10px 5px;
+        box-shadow: 0 0 5px gray;
+        border-radius: 10px;
+
+    }
+
+    .di2-sect8 figure .fi-img {
+        width: 100%;
+    }
+
+
+    .sub1-foo {
+        padding-top: 40px;
+        width: 23%;
+    }
+
+    .sub1-foo img {
+        width: 80%;
+    }
+
+    .sub2-foo {
+        margin-top: 40px;
+        width: 25%;
+    }
+
+    .sub2-foo .ph1 {
+        font-size: 25px;
+        font-weight: 800;
+
+    }
+
+    .sub2-foo p:nth-child(3) {
+        width: 20%;
+    }
+
+    .sub3-foo {
+        padding-top: 15px;
+        margin-top: 25px;
+        width: 25%;
+        padding-left: 10px;
+    }
+
+    .sub3-foo p:nth-child(1) {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .sub3-foo p:nth-child(2) {
+        margin-top: 14px;
+    }
+
+    .sub3-foo address {
+        line-height: 2;
+    }
+
+    .sub4-foo {
+        width: 22%;
+        margin-top: 20px;
+        padding-top: 20px;
+
+    }
+
+    .sub4-foo p:nth-child(1) {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .sub4-foo p:nth-child(2) {
+        margin-top: 9px;
+    }
+
+    .main2-foo p {
+        padding-top: 30px;
+
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .main2-nav .logo {
+        width: 35%;
+    }
+
+    .sect4 {
+        padding-top: 60px;
+    }
+
+
+}
+
+@media (min-width:1400px) {
+
+    .sub1-main {
+        width: 45%;
+
+    }
+
+    .more {
+        padding: 15px 30px;
+        border-radius: 0;
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .sub2-main {
+        width: 35%;
+    }
+
+
+    .sect2 {
+        width: 100%;
+    }
+
+    .di1-sect2 {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    /* .sub1-sect2 {
+        width: 55%;
+    }
+
+    .sub2-sect2 {
+        width: 35%;
+
+    } */
+
+    .sect3 {
+        padding-bottom: 70px;
+    }
+
+    .main1-sect3 {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .sect4 {
+        padding-top: 30px;
+    }
+
+    .di1-sect4 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .main1-sect5 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sect5 .car-parts {
+        height: 400px;
+        padding-top: 282px;
+    }
+
+    .img1 {
+        height: 400px;
+        width: 50%;
+        padding-top: 21.8%;
+        margin-top: 30px;
+    }
+
+    .img2 {
+        height: 400px;
+        width: 50%;
+        padding-top: 21.8%;
+        margin-top: 30px;
+    }
+
+    .img3 {
+        height: 400px;
+        width: 50%;
+        padding-top: 21.8%;
+        margin-top: 30px;
+    }
+
+    .img4 {
+        height: 400px;
+        width: 50%;
+        padding-top: 21.8%;
+        margin-top: 30px;
+    }
+
+    .img5 {
+        height: 400px;
+        width: 50%;
+        padding-top: 21.8%;
+        margin-top: 30px;
+    }
+
+    .img6 {
+        height: 400px;
+        width: 50%;
+        padding-top: 21.8%;
+        margin-top: 30px;
+    }
+
+    .main1-sect7 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .main1-sect8{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sub-sect8 .lily {
+        width: 50px;
+    }
+
+.main-foo{
+    width: 85%;
+    margin: 0 auto;
+}
+}
